@@ -1,0 +1,32 @@
+{
+  "name": "react-example",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "main": "js/app.js",
+  "dependencies": {
+    "bluebird": "^2.9.12",
+    "bootstrap": "latest",
+    "flux": "latest",
+    "object-assign": "^2.0.0",
+    "react": "latest",
+    "react-router": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "jest-cli": "latest",
+    "jsx-loader": "latest",
+    "react-hot-loader": "latest",
+    "uglify-js": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "lint": "eslint js/**/*.js"
+  },
+  "jest": {
+    "rootDir": "./js"
+  }
+}
